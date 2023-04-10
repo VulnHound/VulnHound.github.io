@@ -4,8 +4,7 @@ Portfolio
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
-
+*For access to my private project repositories, please [email me](mailto:dastyles@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 ---
 ### [Project 1 Title | CSCI 301](project1)
 
@@ -16,51 +15,26 @@ Programming Projects
 
 ![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
 
----
-### [Project 3 Title | CSCI 325](project1)
-
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
-
----
-### [Project 4 Title | CSCI 332](project1)
-
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
 
 ---
 
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [The Ethics of Using Others’ Code](/pdf/Styles_Ethics_Paper.pdf)
 
--   **Class:**  
--   **Grade:**
-
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
-
--   **Class:** 
--   **Grade:**
-
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
-
--   **Class:** 
--   **Grade:**
+-   **Class: CSCI 301**  
+-   **Grade: A**
 
 ---
 
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Stuxnet: The World's First Cyber Weapon](/pdf/Stuxnet_Presentation.pdf)
 
-- **Class:** 
-- **Grade:**
-
-
-### [Presentation 2 Title](/pdf/sample_presentation.pdf)
-
-- **Class:** 
-- **Grade:**
+- **Class: CSCI 405** 
+- **Grade: A**
 
 ---
 
