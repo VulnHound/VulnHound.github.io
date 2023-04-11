@@ -1,48 +1,46 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+C++ FTP Server
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class: CSCI 332** 
+-   **Grade: 90** 
+-   **Language(s): C++** 
+-   **Source Code Repository:** [C-FTP-Server](https://github.com/VulnHound/C-FTP-Server)  
+    (Please [email me](mailto:dastyles@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project was meant to be a simple file transfer program that utilizes a server and a client. Once the server is run it asks the user for a port to listen on. Once listening, the user should then run the client program. The client program asks the user to enter in the port, IP address, and the file to be sent. Once Enter is hit on the client-side then file transfer begins. Once finished it creates a new file with a timestamp before the filename. 
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+How to compile and run the project.
+
+First, compile both files with g++. Then run server first and client afterwards.
 
 ```bash
-cd ./project
-python setup.py
+g++ server.cpp -o server
+g++ client.cpp -o client
+./server
+./client
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+The design is simple. It is simply a command line interface program that asks the user for a few bits of networking information before running a file transfer. 
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+![screenshot](images/ap_1.png)  
+Fig 1. Launch and enter in networking information
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/ap_2.png)  
+Fig 2. The server and client connect and begin transferring data
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
-
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/ap_3.png)  
+Fig 3. The file is then created with a timestamp of when the transfer occurred 
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This code is meant to be run in a Linux environment as it uses specific networking packages in the C++ code that is targeted towards Linux. Windows users will need to alter the code for it to work in that environment. 
 
 [Back to Portfolio](./)
